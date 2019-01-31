@@ -5,9 +5,8 @@ function takeANumber(katzDeliLine, name){
 return "Welcome, " + name +". You are number "+ position +" in line."
 
  }
-
+ var position = 0
  function takeANumber2(katzDeliLine, name){
-   var position = 0
    var newPosition = position++
    return "Welcome, " + name +". You are number "+ newPosition +" in line."
  }
