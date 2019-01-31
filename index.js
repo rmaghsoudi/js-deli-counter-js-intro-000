@@ -1,6 +1,6 @@
 var katzDeliLine = [];
 function takeANumber(katzDeliLine, name){
-  var position = katzDeliLine.length + 1
+  var position = katzDeliLine.length
   katzDeliLine.push(name)
 return "Welcome, " + name +". You are number "+ position +" in line."
 
@@ -21,7 +21,7 @@ function currentLine(katzDeliLine) {
 
 var line = [];
 for(var i = 0; i < katzDeliLine.length; i++){
-  line.push(i + 1 + ". " + katzDeliLine[i] )
+  line.push(i + 1 + ". " + katzDeliLine[i])
 }
 return "The line is currently: " + line.join(", ");
 }
